@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS giocatore;
+
+USE giocatore;
+
+CREATE TABLE IF NOT EXISTS snake_game (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nickname VARCHAR(255) NOT NULL,
+    score INT NOT NULL
+);
